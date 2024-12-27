@@ -1,0 +1,24 @@
+{
+  "name": "book-task",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "shubham",
+  "type": "module",
+  "scripts": {
+    "test": "jest tests",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "redis": "^4.7.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9"
+  }
+}
